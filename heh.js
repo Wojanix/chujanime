@@ -1,0 +1,3 @@
+function fun() {
+alert("Przesłano");
+}

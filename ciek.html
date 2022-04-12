@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <title>Ciekawostki</title>
+    <script src="heh.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Strona początkowa</a>
+    <div class="dropdown">
+      <button class="dropbtn">W dól
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#tabela">Tabela</a>
+        <a href="#lista">Lista</a>
+        <a href="#formul">Formularze</a>
+        <a href="#lin">Link do innej strony</a>
+
+      </div>
+    </div> 
+  </div>
+    <h1>Ciekawostki</h1>
+
+    <table style="width: 70%;" id="tabela">
+        <tr>
+          <td>Ludność</td>
+          <td>467 tys. (2 najludniejsze na florydzie)</td>
+        </tr>
+        <tr>
+          <td>Obszar metropolitalny Miami</td>
+          <td>5 564 635 mieszkańców</td>
+        </tr>
+        <tr>
+          <td>Miami Parki</td>
+          <td>Ponad 800</td>
+        </tr>
+        <tr>
+          <td>Miami International Airport</td>
+          <td>44 milionów pasażerów rocznie</td>
+        </tr>
+        <tr>
+          <td>Pierwszy Burger King</td>
+          <td>Otwarty w Miami w 1954 roku</td>
+        </tr>
+      </table>
+      <ul id="lista">
+        <li>Miami nie jest stolicą Florydy. Stolicą jest miasto Tallahassee</li>
+        <li>Port w Miami jest znany jako Cruise Capital of the World, obsługując prawie pięć milionów pasażerów rocznie.</li>
+        <li>Will Smith też był w Miami 😉 </li>
+        <li>Nowojorczycy tłumnie przybywają do metropolii na południowej Florydzie.</li>
+        <li>W oficjalnej historii meteorologicznej Miami śnieg padał dokładnie raz.</li>
+        <li>Po drugiej stronie Zatoki Biscayne od Miami znajduje się Miami Beach, które zostało założone w 1915 roku.</li>
+      </ul>
+    <p>Jak oceniasz wizualnie to miasto?</p>
+    <form id="formul">
+        <input type="radio" id="nice" name="fav_language" value="Good">
+        <label for="nice">Ładne</label><br>
+        <input type="radio" id="mid" name="fav_language" value="Mid">
+        <label for="mid">Średnie</label><br>
+        <input type="radio" id="OK" name="fav_language" value="OK">
+        <label for="Ok">Takie OK</label><br>
+        <input type="radio" id="bad" name="fav_language" value="Bad">
+        <label for="bad">Brzydkie</label><br>
+        <input type="reset" value="Wyczyść">
+        <input type="submit" value="Wyślij" id="heh" onclick="fun()">
+        </form><br><br><br>
+      <p>Wspomóż nas swoją opinią</p>
+    <form>
+      <textarea id="nwm" cols="30" rows="10"></textarea><br>
+      <input type="reset" value="Wyczyść">
+        <input type="submit" value="Wyślij" id="heh" onclick="fun()">
+    </form>
+    <br><br><br>
+    <p id="lin">Po więcej ciekawostek kieruj sie <a href="https://fajnepodroze.pl/ciekawostki-miami/">tutaj</a></p>
+</body>
+</html>

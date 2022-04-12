@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <title>Zabytki</title>
+    <script src="heh.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Strona początkowa</a>
+        <div class="dropdown">
+          <button class="dropbtn">W dól
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#tabela">Tabela</a>
+            <a href="#willa">Vizcaya Museum</a>
+            <a href="#columb">Pomink Kolumba</a>
+            <a href="#holo">Pomnik Holocaustu</a>
+            <a href="#lin">Link</a>
+            <a href="#vide">Video</a>
+          </div>
+        </div> 
+      </div>
+    <h1>Zabytki</h1>
+    <div class="mus">
+    <audio controls >
+        <source src="images/music.mp3" type="audio/ogg">
+      </audio>
+    </div>
+    
+    <div id="willa">
+        <img src="images/zam.jpg" alt="Tu powinien być zamek ale go nie ma"  class="floa" id="zamek">
+        <p  class="flob">Vizcaya Museum and Gardens, wcześniej znana jako Villa Vizcaya, to dawna willa i posiadłość biznesmena Jamesa Deeringa z fortuny Deering McCormick-International Harvester, w Biscayne Bay w dzisiejszej dzielnicy Coconut Grove w Miami na Florydzie. Posiadłość Vizcaya z początku XX wieku obejmuje również: rozległe ogrody włoskiego renesansu; rodzimy krajobraz leśny; oraz zabytkowy kompleks budynków gospodarczych wsi.</p>
+    </div>
+    <div>
+        <p class="floc">Pomnik Krzysztofa Kolumba stoi w dzielnicy Bayfront Park w Miami na Florydzie w Stanach Zjednoczonych. Został zdewastowany w czerwcu 2020 r., aby zaprotestować przeciwko morderstwu George'a Floyda.Christopher Columbus was an Italian explorer and navigator who completed four voyages across the Atlantic Ocean, opening the way for the widespread European exploration and colonization of the Americas. </p>
+        <img src="images/columb.jpg" alt="Tu jest Kolumb" class="flod" id="columb">
+    </div>
+    <div>
+        <img src="images/holo.jpg" alt="Tu jest Pomnik" id="holo" class="floe">
+        <p class="flof">Pomnik Holokaustu w Greater Miami Jewish Federation to pomnik Holokaustu przy Meridian Avenue 1933-1945 w Miami Beach na Florydzie. Został on wymyślony przez komitet ocalałych z Holokaustu w 1984 r., formalnie utworzony w 1985 r. jako Komitet Pamięci o Holokauście, organizacja non-profit</p>
+    </div>
+    <p id="lin1">Kliknij <a href="http://hikersbay.com/northamerica/usa/miami/historic.html?lang=pl"> tutaj </a>aby zobaczyc inne wyjątkowe budowle</p>
+    <iframe src="images/miami.mp4" width="990" height="540" class="vid" id="vide">
+    </iframe>
+    <form id="formul" class="top">
+        <input type="checkbox" id="nice" name="fav_language" value="Good">
+        <label for="nice">Pojadę</label><br>
+        <input type="checkbox" id="mid" name="fav_language" value="Mid">
+        <label for="mid">Raczej tak</label><br>
+        <input type="checkbox" id="OK" name="fav_language" value="OK">
+        <label for="Ok">Raczej nie</label><br>
+        <input type="checkbox" id="bad" name="fav_language" value="Bad">
+        <label for="bad">NIE</label><br>
+        <input type="reset" value="Wyczyść">
+        <input type="submit" value="Wyślij" id="heh" onclick="fun()">
+        </form>
+</body>
+</html>

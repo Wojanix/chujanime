@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Strona początkowa</a>
+    <div class="dropdown">
+      <button class="dropbtn">W dól
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#zdj">Zdjęcia</a>
+        <a href="#lin">Link</a>
+
+      </div>
+    </div> 
+  </div>
+    <script src="script.js"></script>
+    <h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/flor1.jpg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/flor2.jpg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/flor3.jpg" style="width:80%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/flor4.jpg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/flor5.jpg" style="width:80%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/flor6.jpg" style="width:80%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row" id="zdje">
+    <div class="column">
+      <img class="demo cursor" src="images/flor1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Miami City">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/flor2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Miami Beach">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/flor3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Miami Hotel">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/flor4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Miami Cars">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/flor5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Miami Countryside">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/flor6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Miami Sea">
+    </div>
+  </div>
+</div>
+<p id="lin">Po więcej zdjęć zapraszam <a href="https://unsplash.com/s/photos/miami-beach">tutaj</a></p>
+</body>
+</html>
